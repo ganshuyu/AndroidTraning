@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.ganshuyu.mytraning.topbar.TopBar
+        android:id="@+id/myTopbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        custom:topBarColor="#ffc1d1cb"
+
+        custom:titleText="主题"
+        custom:titleTextColor="#FFFFFFFF"
+        custom:titleTextSize="10sp"
+
+        custom:leftButtonText="Back"
+        custom:leftButtonTextColor="#FFFF0000"
+        custom:leftButtonBackground="@drawable/my_button_shape"
+
+        custom:rightButtonText="More"
+        custom:rightButtonTextColor="#FFFF0000"
+        custom:rightButtonBackground="@drawable/my_button_shape">
+    </com.example.ganshuyu.mytraning.topbar.TopBar>
+
+</LinearLayout>
