@@ -2,8 +2,8 @@
 <resources>
 
     <string name="app_name">MyTraning</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
     <string name="topBarButtonText">1.自定义View之TopBar</string>
     <string name="title_activity_top_bar">TopBarActivity</string>
 

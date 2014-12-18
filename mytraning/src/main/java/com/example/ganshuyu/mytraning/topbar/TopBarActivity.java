@@ -29,6 +29,8 @@ public class TopBarActivity extends Activity {
                 Toast.makeText(TopBarActivity.this, "RightButton", Toast.LENGTH_SHORT).show();
             }
         });
+
+        getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 
