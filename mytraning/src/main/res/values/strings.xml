@@ -6,5 +6,8 @@
     <string name="action_search">Search</string>
     <string name="topBarButtonText">1.自定义View之TopBar</string>
     <string name="title_activity_top_bar">TopBarActivity</string>
+    <string name="sendNotifications">2.发送Notifications </string>
+    <string name="title_activity_send_notifications">SendNotificationsActivity</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

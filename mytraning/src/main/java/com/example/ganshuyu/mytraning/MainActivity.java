@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.ganshuyu.mytraning.send_notifications.SendNotificationsActivity;
 import com.example.ganshuyu.mytraning.topbar.TopBarActivity;
 
 
@@ -54,6 +55,11 @@ public class MainActivity extends Activity {
     //Handle items click.
     public void topBarClick (View v){
         Intent intent = new Intent(this, TopBarActivity.class);
+        startActivity(intent);
+    }
+
+    public void sendNotificationsClick (View v){
+        Intent intent = new Intent(this, SendNotificationsActivity.class);
         startActivity(intent);
     }
 }

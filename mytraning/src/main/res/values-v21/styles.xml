@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/MyActionBar</item>
-    </style>
-
-    <style name="MyActionBar"
-        parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">@drawable/actionbar_background</item>
-        <item name="android:titleTextStyle">@style/MyActionBarTitleTextStyle</item>
-    </style>
-    
-    <style name="MyActionBarTitleTextStyle"
-         parent="android:TextAppearance.DeviceDefault.Widget.ActionBar.Title">
-        <item name="android:textColor">#ff15290e</item>
-        <item name="android:textSize" >18sp</item>
     </style>
 </resources>
