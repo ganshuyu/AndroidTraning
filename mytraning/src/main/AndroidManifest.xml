@@ -25,6 +25,12 @@
             android:name=".send_notifications.SendNotificationsActivity"
             android:label="@string/title_activity_send_notifications" >
         </activity>
+
+        <receiver android:name=".send_notifications.SendNotificationsActivity$mReceiver">
+            <intent-filter>
+                <action android:name="android.notification.GANSHUYU" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
