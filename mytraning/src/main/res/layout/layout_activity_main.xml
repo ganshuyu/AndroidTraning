@@ -17,5 +17,11 @@
             android:text="@string/topBarButtonText"
             android:onClick="topBarClick" />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sendNotifications"
+            android:onClick="sendNotificationsClick"/>
+
     </LinearLayout>
 </ScrollView>
